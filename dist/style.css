@@ -8,8 +8,20 @@ h1 {
   font-size: 25px;
 }
 .btn:hover {
-  background: red;
+  background: black;
   transition: 1s;
+}
+.btn-danger {
+  background: red;
+  color: #eeeeee;
+}
+.btn-warning {
+  background: #ff9100;
+  color: #eeeeee;
+}
+.btn-success {
+  background: #008800;
+  color: #eeeeee;
 }
 
 /*# sourceMappingURL=style.css.map */
