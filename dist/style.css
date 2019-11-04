@@ -1,5 +1,13 @@
 h1 {
-  color: black;
+  border: 2 px solid black;
+  background: green;
+  font-size: 30px;
+}
+
+p {
+  border: 2 px solid black;
+  background: blue;
+  font-size: 30px;
 }
 
 .btn {
@@ -14,6 +22,9 @@ h1 {
 .btn-danger {
   background: red;
   color: #eeeeee;
+  border: 2 px solid black;
+  background: red;
+  font-size: 30px;
 }
 .btn-warning {
   background: #ff9100;

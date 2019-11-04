@@ -1,11 +1,11 @@
-$danger: red;
-$warning: rgb(255, 145, 0);
-$success: rgb(0, 136, 0);
-$dark: black;
-$light: rgb(238, 238, 238);
+@import "variables.scss";
+@import "mixins.scss";
 
 h1{
-    color: $dark;
+    @include camion(green)
+}
+p{
+    @include camion(blue)
 }
 
 .btn{
@@ -20,6 +20,7 @@ h1{
     &-danger{
         background: $danger;
         color: $light;
+        @include camion(red);
     }
     &-warning{
         background: $warning;
